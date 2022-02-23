@@ -1,0 +1,16 @@
+<div>
+  <table datatable class="hover dataTable">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let clazz of classes">
+      <td>{{ clazz.id }}</td>
+      <td>{{ clazz.name }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

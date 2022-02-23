@@ -9,6 +9,7 @@ import { TableComponent } from '../shared/components/table/table.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { StudentsTableComponent } from './components/students-table/students-table.component';
 import { DegreesTableComponent } from './components/degrees-table/degrees-table.component';
+import { ClassesTableComponent } from './components/classes-table/classes-table.component';
 
 
 
@@ -19,6 +20,7 @@ import { DegreesTableComponent } from './components/degrees-table/degrees-table.
     ChartComponent,
     StudentsTableComponent,
     DegreesTableComponent,
+    ClassesTableComponent,
   ],
   imports: [
     BrowserModule,
