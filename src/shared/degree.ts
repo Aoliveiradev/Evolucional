@@ -1,4 +1,4 @@
 export interface Degree {
   id: number,
-  name: string1
+  name: string
 }

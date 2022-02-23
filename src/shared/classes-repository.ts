@@ -6,7 +6,7 @@ export class ClassesRepository {
   private data: Array<Class>;
 
   constructor() {
-    this.data = classes;
+    this.data = classes.classes;
   }
 
   findAll(): Observable<Array<Class>> {

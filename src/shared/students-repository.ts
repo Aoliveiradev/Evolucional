@@ -16,7 +16,7 @@ export class StudentsRepository {
         degree: degrees.find((degree: any) => {
           return degree.id == student.degreeId
         }),
-        class: classes.find((clazz: any) => {
+        class: classes.classes.find((clazz: any) => {
           return clazz.id == student.classId
         })
       };
