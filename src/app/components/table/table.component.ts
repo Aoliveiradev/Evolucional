@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import students from '../../_files/students.json';
-import degrees from '../../_files/degrees.json';
-import teachers from '../../_files/teachers.json';
+import students from '../../../_files/students.json';
+import degrees from '../../../_files/degrees.json';
+import teachers from '../../../_files/teachers.json';
 
 
 @Component({

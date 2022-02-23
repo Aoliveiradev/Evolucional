@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {EChartsOption} from "echarts";
-import students from '../../_files/students.json';
+import students from '../../../_files/students.json';
 
 @Component({
   selector: 'app-chart',

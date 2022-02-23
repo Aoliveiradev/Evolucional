@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { DataTablesModule } from "angular-datatables";
 import {NgxEchartsModule} from "ngx-echarts";
-import { TableComponent } from './Component/table/table.component';
-import { ChartComponent } from './Component/chart/chart.component';
+import { TableComponent } from './components/table/table.component';
+import { ChartComponent } from './components/chart/chart.component';
 
 
 
