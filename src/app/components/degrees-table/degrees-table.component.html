@@ -1,0 +1,16 @@
+<div>
+  <table datatable class="hover dataTable">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let degree of degrees">
+      <td>{{ degree.id }}</td>
+      <td>{{ degree.name }}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

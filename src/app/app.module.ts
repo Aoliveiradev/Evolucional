@@ -8,6 +8,7 @@ import {NgxEchartsModule} from "ngx-echarts";
 import { TableComponent } from '../shared/components/table/table.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { StudentsTableComponent } from './components/students-table/students-table.component';
+import { DegreesTableComponent } from './components/degrees-table/degrees-table.component';
 
 
 
@@ -17,6 +18,7 @@ import { StudentsTableComponent } from './components/students-table/students-tab
     TableComponent,
     ChartComponent,
     StudentsTableComponent,
+    DegreesTableComponent,
   ],
   imports: [
     BrowserModule,
