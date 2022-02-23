@@ -1,6 +1,6 @@
 import {Class} from "./class";
 import {Observable, of} from "rxjs";
-import classes from '../_files/classes.json';
+import classes from '../../dados/classes.json';
 
 export class ClassesRepository {
   private data: Array<Class>;

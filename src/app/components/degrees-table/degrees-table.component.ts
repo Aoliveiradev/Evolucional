@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Degree} from "../../../shared/degree";
-import {DegreesRepository} from "../../../shared/degrees-repository";
+import {Degree} from "../../shared/degree";
+import {DegreesRepository} from "../../shared/degrees-repository";
 
 @Component({
   selector: 'app-degrees-table',

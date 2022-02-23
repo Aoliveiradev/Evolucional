@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {StudentsRepository} from "../../../shared/students-repository";
-import {Student} from "../../../shared/student";
+import {StudentsRepository} from "../../shared/students-repository";
+import {Student} from "../../shared/student";
 
 @Component({
   selector: 'app-students-table',
@@ -15,7 +15,7 @@ export class StudentsTableComponent implements OnInit {
   ngOnInit(): void {
     new StudentsRepository().findAll().subscribe(students => {
       this.students = students;
-    });
+    });''
   }
 
 }

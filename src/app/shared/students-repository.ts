@@ -1,7 +1,7 @@
 import {Observable, of} from "rxjs";
-import students from "../_files/students.json";
-import degrees from "../_files/degrees.json";
-import classes from "../_files/classes.json";
+import students from "../../dados/students.json";
+import degrees from "../../dados/degrees.json";
+import classes from "../../dados/classes.json";
 import {Student} from "./student";
 
 export class StudentsRepository {

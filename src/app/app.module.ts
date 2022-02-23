@@ -5,11 +5,14 @@ import { AppComponent } from './app.component';
 import { CommonModule } from '@angular/common';
 import { DataTablesModule } from "angular-datatables";
 import {NgxEchartsModule} from "ngx-echarts";
-import { TableComponent } from '../shared/components/table/table.component';
+import { TableComponent } from './shared/components/table/table.component';
 import { ChartComponent } from './components/chart/chart.component';
 import { StudentsTableComponent } from './components/students-table/students-table.component';
 import { DegreesTableComponent } from './components/degrees-table/degrees-table.component';
 import { ClassesTableComponent } from './components/classes-table/classes-table.component';
+import { EditStudentPageComponent } from './pages/edit-student-page/edit-student-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 
 
@@ -21,6 +24,9 @@ import { ClassesTableComponent } from './components/classes-table/classes-table.
     StudentsTableComponent,
     DegreesTableComponent,
     ClassesTableComponent,
+    EditStudentPageComponent,
+    HomePageComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
