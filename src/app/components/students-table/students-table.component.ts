@@ -9,7 +9,7 @@ import {Router} from "@angular/router";
   styleUrls: ['./students-table.component.css']
 })
 export class StudentsTableComponent implements OnInit {
-  public students: Array<Student> = [];
+  public  students: Array<Student> = [];
 
   constructor(private router: Router) { }
 
@@ -22,9 +22,6 @@ export class StudentsTableComponent implements OnInit {
   edit($event: Event, student: Student) {
     $event.preventDefault();
 
-    this.router.navigate([
-      '/students/',
-      student.id
-    ]);
+    this.router.navigate(['/students/', student.id]);
   }
 }

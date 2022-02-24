@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {Degree} from "../../shared/degree";
 import {ClassesRepository} from "../../shared/classes-repository";
+import {Class} from "../../shared/class";
+import {Router} from "@angular/router";
+
 
 @Component({
   selector: 'app-classes-table',
@@ -8,14 +10,19 @@ import {ClassesRepository} from "../../shared/classes-repository";
   styleUrls: ['./classes-table.component.css']
 })
 export class ClassesTableComponent implements OnInit {
-  public classes: Array<Degree> = [];
+  public classes: Array<Class> = [];
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
-    new ClassesRepository().findAll().subscribe(classes => {4
+    new ClassesRepository().findAll().subscribe(classes => {
       this.classes = classes;
     });
+  }
+  edit($event: Event, classes: Class) {
+    $event.preventDefault();
+
+    this.router.navigate(['/classes/', classes.id]);
   }
 
 }

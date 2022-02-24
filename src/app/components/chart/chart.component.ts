@@ -13,38 +13,44 @@ export class ChartComponent implements OnInit {
   title = 'Evolucional-app';
   option: EChartsOption = {
     //colar codigo apartir daqui
-    tooltip: {
-      trigger: 'axis',
-      axisPointer: {
-        type: 'shadow'
+    legend: {
+      top: 'bottom'
+    },
+    toolbox: {
+      show: true,
+      feature: {
+        mark: { show: true },
+        dataView: { show: true, readOnly: false },
+        restore: { show: true },
+        saveAsImage: { show: true }
       }
     },
-    grid: {
-      left: '3%',
-      right: '4%',
-      bottom: '3%',
-      containLabel: true
-    },
-    xAxis: [
-      {
-        type: 'category',
-        data: ['id', 'ra', 'name', 'degreeId', 'classId'],
-        axisTick: {
-          alignWithLabel: true
-        }
-      }
-    ],
-    yAxis: [
-      {
-        type: 'value'
-      }
-    ],
     series: [
       {
-        name: 'Direct',
-        type: 'bar',
-        barWidth: '60%',
-        data: [5, 5, 200, 334, 390, 330, 220]
+        name: 'Nightingale Chart',
+        type: 'pie',
+        radius: [50, 150],
+        center: ['50%', '50%'],
+        roseType: 'area',
+        itemStyle: {
+          borderRadius: 8
+        },
+        data: [
+
+  // {{ student.id }},
+  // {{ student.ra }},
+  // {{ student.name }},
+  // {{ student.degree.name }},
+  // {{ student.class.name }},
+
+
+          { value: 4, name: 'Ensino Fundamental'},
+          { value: 2, name: '1° ano do ensino médio' },
+          { value: 3, name: '2° ano ensino médio' },
+          { value: 1, name: '3° ano ensino médio' },
+          { value: 1, name: 'Estudo em casa' },
+
+        ]
       }
     ]
     //Finalizar codigo aqui

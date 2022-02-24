@@ -1,28 +1,30 @@
 <div>
   <table datatable class="hover dataTable">
-    <thead>
+    <thead style="color: #060181">
       <tr>
-        <th>ID</th>
-        <th>RA</th>
-        <th>Name</th>
-        <th>Degree</th>
-        <th>Class</th>
-        <th>&nbsp;</th>
+        <th><mat-icon style=" color: #060181;" aria-label="save icon">format_list_numbered</mat-icon></th>
+        <th><mat-icon style=" color: #060181;" aria-label="save icon">perm_identity</mat-icon></th>
+        <th><mat-icon style=" color: #060181;" aria-label="save icon">library_books</mat-icon></th>
+        <th><mat-icon style=" color: #060181;" aria-label="save icon">school</mat-icon></th>
+        <th><mat-icon style=" color: #060181;" aria-label="save icon">class</mat-icon></th>
+        <th> </th>
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let student of students">
-        <td>{{ student.id }}</td>
-        <td>{{ student.ra }}</td>
-        <td>{{ student.name }}</td>
-        <td>{{ student.degree.name }}</td>
-        <td>{{ student.class.name }}</td>
-        <td>
-          <a href="#" (click)="edit($event, student)">
-            Editar
-          </a>
-        </td>
+      <tr style="color: #060181; font-family: 'Calibri bold';" *ngFor="let student of students">
+        <td align="center">{{ student.id }}</td>
+        <td align="center">{{ student.ra }}</td>
+        <td align="center">{{ student.name }}</td>
+        <td align="center">{{ student.degree.name }}</td>
+        <td align="center">{{ student.class.name }}</td>
+        <td align="center">
+            <button (click)="edit($event, student)" style="background-color: #060181; color:#fafafa; padding: 0; min-width: 0; width: 36px;" mat-raised-button  color="primary" aria-label="Example icon button with a filter list icon">
+              <mat-icon> border_color</mat-icon>
+            </button>
+         </td>
       </tr>
     </tbody>
   </table>
 </div>
+
+

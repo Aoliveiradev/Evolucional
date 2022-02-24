@@ -15,10 +15,10 @@ Sobre a tela 1, parte 2: Como nós temos poucos dados, queremos simular um cená
 Vamos lá aos requisitos para a tela 1
 
 ## Parte 1
-	- Criar combo de filtro a base dos JSONs 'degrees','classes'
-	- Popular a tela com as informações de students e suas relações (trazendo nome do degree, nome do class)
-	- Dar opção para editar o nome dos students e a class atribuida ao mesmo
-	- Filtrar conforme combo sempre levando em consideração os dados pós-alteração
+	- Criar combo de filtro a base dos JSONs 'degrees','classes' OK
+	- Popular a tela com as informações de students e suas relações (trazendo nome do degree, nome do class) OK
+	- Dar opção para editar o nome dos students e a class atribuida ao mesmo OK
+	- Filtrar conforme combo sempre levando em consideração os dados pós-alteração OK
 ## Parte 2
 	- Criar botão que gera mais 300 students e os distribuí entre os degrees e classes
 	- Gerar gráfico com a quantidade de students por degree

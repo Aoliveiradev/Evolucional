@@ -1,6 +1,6 @@
 <div class=".ml -10">
+  <!-- toolbar -->
   <div class="toolbar" role="banner">
-    <!-- toolbar -->
     <img
       width="200"
       alt="Evolucional Logo"
@@ -8,9 +8,10 @@
     />
   </div>
   <div>
+  <!--Buttons-->
     <div class="content" role="main">
       <h2>Relatório de dados</h2>
-      <!-- studentButton -->
+      <!-- CardContainer -->
       <div class="card-container" style="align-items: center">
         <!-- studentsButton -->
         <a class="card" target="_blank" rel="noopener" (click)="type = 'students'">
@@ -50,7 +51,8 @@
       </div>
     </div>
   </div>
-  <div style="align-content: center">
+  <!--table-->
+  <div style="margin: 1em;">
     <div *ngIf="type == 'students'">
       <app-students-table></app-students-table>
     </div>
@@ -61,8 +63,8 @@
       <app-classes-table></app-classes-table>
     </div>
   </div>
-  <div>
-    <!--chart-->
-    <app-chart></app-chart>
+  <!--chart-->
+  <div class="chartBox">
+      <app-chart></app-chart>
   </div>
 </div>

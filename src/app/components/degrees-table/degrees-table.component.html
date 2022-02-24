@@ -2,15 +2,23 @@
   <table datatable class="hover dataTable">
     <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th><mat-icon style=" color: #060181;" aria-label="save icon">format_list_numbered</mat-icon></th>
+      <th><mat-icon style=" color: #060181;" aria-label="save icon">school</mat-icon></th>
+      <th> </th>
+
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let degree of degrees">
-      <td>{{ degree.id }}</td>
-      <td>{{ degree.name }}</td>
+      <td align="center">{{ degree.id }}</td>
+      <td align="center">{{ degree.name }}</td>
+      <td align="center">
+        <button (click)="edit($event, degree)"  style="background-color: #060181; color:#fafafa; padding: 0; min-width: 0; width: 36px;" mat-raised-button  color="primary" aria-label="Example icon button with a filter list icon">
+          <mat-icon> border_color</mat-icon>
+        </button>
+      </td>
     </tr>
     </tbody>
   </table>
 </div>
+

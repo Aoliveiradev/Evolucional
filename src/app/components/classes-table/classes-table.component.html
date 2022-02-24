@@ -2,15 +2,23 @@
   <table datatable class="hover dataTable">
     <thead>
     <tr>
-      <th>ID</th>
-      <th>Name</th>
+      <th><mat-icon style=" color: #060181;" aria-label="save icon">format_list_numbered</mat-icon></th>
+      <th><mat-icon style=" color: #060181;" aria-label="save icon">class</mat-icon></th>
+      <th>&nbsp;</th>
     </tr>
     </thead>
     <tbody>
     <tr *ngFor="let clazz of classes">
-      <td>{{ clazz.id }}</td>
-      <td>{{ clazz.name }}</td>
+      <td align="center">{{ clazz.id }}</td>
+      <td align="center">{{ clazz.name }}</td>
+      <td align="center">
+
+      <button (click)="edit($event, clazz)"  style="background-color: #060181; color:#fafafa; padding: 0; min-width: 0; width: 36px;" mat-raised-button  aria-label="Example icon button with a filter list icon">
+        <mat-icon> border_color</mat-icon>
+      </button>
+    </td>
     </tr>
     </tbody>
   </table>
 </div>
+<!---->

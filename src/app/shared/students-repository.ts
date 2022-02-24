@@ -26,4 +26,12 @@ export class StudentsRepository {
   findAll(): Observable<Array<Student>> {
     return of(this.data);
   }
+
+  findById(id: any): Student | null {
+    // return this.data.find(student => {
+    //   return student.id == id;
+    // });
+
+    return null;
+  }
 }
