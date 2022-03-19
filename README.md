@@ -21,7 +21,12 @@
 	🏠  HOME - CLASSES 🏠
 </h2>
 	<img src="https://github.com/Aoliveiradev/Evolucional/blob/main/ScreenShoots/Class.png?raw=true" />
+  <h2 align="center">
+  🏠  STUDENTS - EDITING 🏠
+  </h2>
+  <img src="https://github.com/Aoliveiradev/Evolucional/blob/main/ScreenShoots/editing%20students.png?raw=true" />
 </h3>
+
 
 
 #### 🧭 Rodando a aplicação
