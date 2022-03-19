@@ -6,7 +6,7 @@
 
 ## 💻 Sobre o projeto
 
-✨ Projeto desenvolvido em Angular utilizando <img src='https://angular.io/assets/images/logos/angular/logo-nav@2x.png Material UI'/>.
+✨ Projeto desenvolvido em Angular utilizando <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqzMqxo3FdmgI207Z1QuXm6ndnJxp7QGm_g&usqp=CAU'/>.
 
 <h3 align="center" >
 	<h2 align="center"> 
