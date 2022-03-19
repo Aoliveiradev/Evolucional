@@ -1,6 +1,6 @@
 
 <h1 align="center" >
-    <img alt="Logo Evolucional" src="https://evolucional.com.br/img/global/logo-evolucional.svg" />
+    <img alt="Logo Evolucional" size='2px' src="https://evolucional.com.br/img/global/logo-evolucional.svg" />
 </h1>
 
 
