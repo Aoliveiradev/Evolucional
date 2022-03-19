@@ -1,27 +1,48 @@
-# EvolucionalApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+<h1 align="center" >
+    <img alt="Logo Evolucional" src="https://evolucional.com.br/img/global/logo-evolucional.svg" />
+</h1>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 💻 Sobre o projeto
 
-## Code scaffolding
+✨ Projeto desenvolvido em Angular. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h3 align="center" >
+	<h2 align="center"> 
+	🏠  HOME - STUDENTS 🏠
+</h2>
+   	<img src="https://github.com/Aoliveiradev/Evolucional/blob/main/ScreenShoots/Home.png?raw=true" />
+	<h2 align="center"> 
+	🏠  HOME - DEGREES 🏠
+</h2>
+	<img src="https://github.com/Aoliveiradev/Evolucional/blob/main/ScreenShoots/Degrees.png?raw=true" />
+	<h2 align="center"> 
+	🏠  HOME - CLASSES 🏠
+</h2>
+	<img src="https://github.com/Aoliveiradev/Evolucional/blob/main/ScreenShoots/Class.png?raw=true" />
+</h3>
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### 🧭 Rodando a aplicação
 
-## Running unit tests
+```bash
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Clone este repositório
+$ git clone https://github.com/Aoliveiradev/Evolucional
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🛠 Tecnologias
 
-## Further help
+As seguintes ferramentas foram usadas na construção do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+- **[Angular](https://angular.io/start)**
+
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE.md).
+
+<p align="center"> 🚀 Desenvolvido por Allan Oliveira 🚀 </p>
