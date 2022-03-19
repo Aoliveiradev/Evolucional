@@ -6,7 +6,7 @@
 
 ## 💻 Sobre o projeto
 
-✨ Projeto desenvolvido em Angular utilizando <img size='2px' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMqzMqxo3FdmgI207Z1QuXm6ndnJxp7QGm_g&usqp=CAU'/>.
+✨ Projeto desenvolvido em Angular utilizando Angular e Angular Material UI.
 
 <h3 align="center" >
 	<h2 align="center"> 
